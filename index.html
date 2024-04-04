@@ -1,1 +1,310 @@
-// https://geraldinas.github.io/geraldinas/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Geraldina's Resume: Web Developer</title>
+    <style type="text/css">
+
+   html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:200%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:200%;}legend{color:#000;}
+
+    html {margin: 0 2%;}
+    body { font-family: helvetica, "times new roman", serif; color: #444; max-width: 800px; margin: 2em auto 3em auto; font-size: 15px; }
+    a { color: #555; text-decoration: none; font-weight: bold; }
+    h1 { font-size: 300%; font-weight: bold; }
+    h2 { font-size: 150%; }
+    header h1 { color: #333; }
+    header h1, header h2 { display: inline; }
+    header h2 {color: #9E9E9E;}
+    header { margin-bottom: 1em; }
+    section { line-height: 180%; border-top: 1px dashed #cacaca; padding: 1em 0 1em;}
+    section h2 { margin: 0 0 0.25em; }
+    .hide { display: none !important; }
+
+    .rounded, #expand-button { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+    .divider { border-color: #cacaca; border-width: 1px; }
+    .divider.top { border-top-style: dashed; padding: 1em 0 0; }
+    .divider.bottom { border-bottom-style: dashed; padding: 0 0 1em; }
+
+    .summary-item { font-size: 12.75px; font-size:16px; color:#000000; }
+    .experience { margin: 1em 0 0; }
+    .experience:first-child { margin: 0; }
+    .experience p { margin: 1em 0 0 1em; }
+    .experience .period + p { margin: 0 0 0 1em; }
+    .experience span.period + p.period { margin: 0 0 0 0.5em; }
+    .experience .period { margin: 0 0 0 0.5em; font-weight: bold; }
+    .experience .period ~ .period { margin: 1em 0 0 0.5em; }
+    .experience .summary { font-size: 110%; }
+    .experience ul { margin: 0 0 0 1em; }
+    .experience li, .skill, .happenings li { list-style-type: circle; list-style-position: inside; }
+    .experience h3 { display: inline; }
+    span.period { font-size: 85%; color: #777; }
+
+    .education p { margin: 0.25em 0 0 1em; }
+    .education h3 { font-weight: bold; margin: 1em 0 0; }
+    .education .period, .education a { font-weight: normal; }
+
+    .hide-expandos .expando p { display: none; }
+    #expand-button { font-size: 120%; padding: 0.1em 0.25em; background: #ddd; margin: 2em 0 0; display: block; text-align: center; }
+    #expand-button:hover { font-size: 120%; padding: 0.1em 0.25em; background: #eee; }
+
+    /* Hide the interactive button for the print copy */
+    @media only print {
+      .pdf {display: none;}
+      #expand-button { display: none; }
+      .expando p {display: block !important;}
+      span.period { color: #666; }
+    }
+
+    /* Mobile overrides */
+    @media only screen and (max-width: 480px) {
+      body { max-width: 97%; margin: 1em 0; }
+      h1 { font-size: 200%; }
+      header h1, header h2 { display: block; }
+    }    </style>
+  </head>
+  <body class="hresume">
+    <header role="banner">
+      <hgroup>
+        <h1 class="fn" itemprop="name">
+          Geraldina S. Alvarez Garcia
+        </h1>
+        <h2 itemprop="jobTitle">
+          Web Developer
+        </h2>
+      </hgroup>
+      <p class="divider top">
+        <a class="email" href="geraldinagalvarez@gmail.com" itemprop="email">geraldinagalvarez@gmail.com</a></p>
+        <a class="url" href="https://github.com/geraldinas" itemprop="url">Github: geraldinas</a></p>
+        <a class="url" href="http://www.linkedin.com/in/geraldinas">Linkedin: geraldinas</a></p>
+        <a class="url" href="http://twitter.com/gerald_inas">Twitter: gerald_inas</a></p>
+      <p>
+    </header>
+    <section role="article">
+      <h2>
+        Relevant Experience
+      </h2><span><span></span>
+      <ul>
+        <li class="experience vevent">
+          <h3 class="summary">
+            <a class="url" href="http://www.vice.com//">Vice Media (Brooklyn, NY)</a></h3>
+          <span class="period"><span style="color:#000000; font-size:16px;"> Full-Stack Engineering</span></span></span>
+          <p>
+            <ul>
+              <li class="skill">
+    Develop large-scale web applications for various platforms and distribution networks.
+              </li>
+              <li class="skill">
+    Built an importer to bring Vice content to apple news using Ruby.
+              </li>
+              <li class="skill">
+    Extensive work on maintaining and refactoring of Vice Video Player.
+              </li>
+              <li class="skill">
+                Built Style Guide and UI-Kit application components using Vue/Javascript.
+              </li>
+              <li class="skill">
+              Involved in moving legacy PHP code to a React App using Javascript, React Router, Typescript, JSX, Node, and Yarn.
+              </li>
+              <li>
+    Aided in implemented unit testing and increased our code coverage, adding significant unit test coverage to existing controllers using Chai.
+              </li>
+              <li class="skill">
+                Developed documentation for many of our processes including on boarding, video player, React transition.
+              </li>
+              <li class="skill">
+    Implement and architect client-side solutions for web applications on desktop and mobile devices. Pioneer new techniques and conventions to bring current systems     up to date with the state of current robust web applications.
+              </li>
+              <li class="skill">
+    Unified React/Express front end powering 15 VICE web verticals (*.vice.com), including refactor of our CMS, sites from PHP to Vue and User facing sites to React
+              </li>
+              <li class="skill">
+    Wrote scripts and redesigned translation system to automate workflow to eliminate time-consuming manual work with spreadsheets.
+              </li>
+              <li class="skill">
+    Worked on adding accessibility up to required standards in our user facing applications.
+              </li>
+          </ul>
+          </p>
+        </li>
+        <li class="experience vevent" itemscope="" itemtype="http://schema.org/Organization">
+          <h3 class="summary" itemprop="name">
+            <a class="url" href="http://www.kickstarter.com/">Kickstarter (Brooklyn, NY)</a></h3>
+          <span class="period"><span style="color:#000000; font-size:16px;">
+            Software Engineering Intern</span></span>
+          </span>
+          <p>
+            <ul>
+              <li>
+                Worked closely with the Bitly Gem/Sequel Pro to improve analytics and track user activity.
+              </li>
+              <li>
+                Added accesibility features to the front end of the site to make application features more user friendly to a larger audience.
+              </li>
+              <li>
+                Built in house link shortener for kickstarter shared content urls.
+              </li>
+              <li>
+                Fixed Bugs in checkout system of the Kickstarted user facing application.
+              </li>
+            </ul>
+        </li>
+      <ul class="vcalendar">
+        <li class="experience vevent" itemscope="" itemtype="http://schema.org/Organization">
+          <h3 class="summary experience vevent" itemprop="name" style="font-size: 16.5px;">
+            <a class="url" href="http://www.musc.edu/">Medical University of South Carolina (Charleston, SC)</a></h3>
+          <span class="period" style="font-size:16px; color:#000000;">
+            Lab Technician
+          </span></span></span>
+          <p class="experience vevent">
+            Worked on in lab as part of a research program that was testing new methods to elongate allograft survival and to study the changes that occur in immunology to increase the survival of heart transplant patients. Work done as an apprentice in this lab was published and is monumental to cardiovascular immunology.&nbsp;</p>
+        </li>
+      </ul>
+      </section>
+    <section role="article">
+        <li class="experience vevent" itemscope="" itemtype="http://schema.org/Organization">
+          <h2>Volunteer</h2>
+          <ul>
+            <span class="period summary-item" style="font-size:14px; color:#252323;">
+                Media Ambassador for New York City since 2015
+            </span>
+            <p>
+              <ul>
+                <li>
+                  As a media Ambassador for NYC I have met with Mayor de Blasio and many NYC Tech CEOs to brainstorm better ways to widen diversity in the tech community, and improve/ introduce computer science education to public schools in NYC
+                </li>
+                <li>
+                  Since 2015 I have met with so many incredibly passionate students and educators, spoken at NYC talent pipeline events and led educational workshops.
+                </li>
+              </ul>
+            </p>
+            <span class="period summary-item" style="font-size:14px; color:#252323;">
+              Railsbridge Instructor
+            </span>
+              <p>
+                <ul>
+                  <li>
+                    An organization providing free training and networking oportunities to underrepresented groups.
+                  </li>
+                  <li>
+                    Teaching Ruby/Rails, html, CSS.
+                  </li>
+                </ul>
+              </p>
+            <span class="period summary-item" style="font-size:14px; color:#252323;">
+              Women Who Code Volunteer
+            </span>
+            <p>
+              <ul>
+                <li>
+                  Women who code is an organization for anyone that identifies as a women to learn to program.
+                </li>
+                <li>
+                  As a volunteer I have attended WWC meetups as an assistant.
+                </li>
+              </ul>
+            </p>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section role="article">
+        <li class="education vevent">
+          <h2 style="font-size: 22.5px;">
+            Education</h2>
+          <p class="summary">
+            College of Charleston (Computer Science<abbr class="dtstart" title="2004-08-01">)</abbr></p>
+          <p class="summary">
+            Flatiron School Fellow (Ruby/Rails, Javascript)</p>
+        </li>
+    </section>
+    <section role="article">
+      <h2>Talks</h2>
+        <ul>
+          <li style="list-style-type: circle; list-style-position: inside;">Flatiron Presents Talk Tittle: Hashtag Haiku </li>
+          <li style="list-style-type: circle; list-style-position: inside;">Kickstarter Engineering Meeting Talk Title: Bringing Bitly Service In-House</li>
+          <li style="list-style-type: circle; list-style-position: inside;">HTML5/Javascript Meetup: Client Side Storage</li>
+        </ul>
+    </section>
+    <section role="article">
+      <h2 style="font-size: 22.5px;">
+        Personal Projects / Interest (can be found in github)
+      </h2>
+        <li class="experience vevent expando" itemscope="" itemtype="http://schema.org/Organization" style="margin-top: 1em;">
+          <h3 class="summary" itemprop="name" style="font-size: 16.5px;">
+            <a>Currently studying 2D/3D animation Pratt University working on animation project on my free time</a>
+          </h3>
+        </li>
+        <li class="experience vevent expando" itemscope="" itemtype="http://schema.org/Organization" style="margin-top: 1em;">
+          <h3 class="summary" itemprop="name" style="font-size: 16.5px;">
+            <a>Hashtag Haiku</a>&nbsp;-&nbsp;</h3>
+          Make Poetry out of anyones twitter timeline
+          <ul style="margin-left: 40px;">
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Twitter API</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Twitter Gem</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Numberandwords Gem</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Syllabize Gem</li>
+          </ul>
+        </li>
+        <li class="experience vevent expando" itemscope="" itemtype="http://schema.org/Organization" style="margin-top: 1em;">
+          <h3 class="summary" itemprop="name" style="font-size: 16.5px;">
+            <a>Arduino</a></h3>
+            <ul style="margin-left: 40px;">
+              <li style="list-style-type: circle; list-style-position: inside;">
+                Built and soldered Arduino Uno and with Adafruit LCD Shield (built in C)
+              </li>
+              <li style="list-style-type: circle; list-style-position: inside;">
+                Scraped goverment census data of average life expectancy based on age/gender to make tiny robot display how many days, hours, minutes someone might have left to live.
+              </li>
+            </ul>
+          </ul>
+        </li>
+        <li class="experience vevent expando" itemscope="" itemtype="http://schema.org/Organization">
+          <h3 class="summary" itemprop="name" style="font-size: 16.5px;">
+            <a>Local Tour Guide</a>&nbsp;-&nbsp;</h3>
+          Connecting tourists to experience life like a local
+          <ul style="margin-left: 40px;">
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Facebook Omniauth</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Carrierwave_direct</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Geocoder Gem</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Amazon S3</li>
+          </ul>
+        </li>
+        <li class="experience vevent expando" itemscope="" itemtype="http://schema.org/Organization" style="margin-top: 1em;">
+          <h3 class="summary" itemprop="name" style="font-size: 16.5px;">
+            <a>Ironboard -</a></h3>
+          A professional network for Flatiron students, staff, and alumni
+          <ul style="margin-left: 40px;">
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Linkedin Omniauth</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Advanced search</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Makes use of sessions, nested ressources, and numerous forms</li>
+            <li style="list-style-type: circle; list-style-position: inside;">
+              Implements peer validation system to ensure security of user information</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <span style="color: rgb(169, 169, 169);"><span style="font-size: 11px;"><span style="font-family: 'times new roman', times, serif;">
+          </section>
+      <section role="article"></span></span></span></li>
+      </ul>
+      <h2>
+        References</h2>
+      <p>
+        <a class="url" href="https://www.linkedin.com/in/nam-bok-rodriguez-207b2838/">Nam Bok Rodriguez (Director of Engineering)</a></p>
+      <p>
+        <a class="url" href="https://www.linkedin.com/in/thaivietle/">Thai Le</a></p>
+    </section>
+  </body>
+</html>
